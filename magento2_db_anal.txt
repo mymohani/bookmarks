@@ -1,0 +1,1870 @@
+tree h: > cw_c_dir_20170121.txt
+tree /F h: > cw_c_file_20170121.txt
+
+
+tree j: > linux_j_dir_20170121.txt
+tree /F j: > linux_j_file_20170121.txt
+
+
+tree k: > DATA_D_k_dir_20170121.txt
+tree /F k: > DATA_D_k_file_20170121.txt
+
+du -h --max-depth=1
+cw:1 인공지능과 쇼핑몰과의 접목, 방법
+cw:2  머신러닝과 문서 관리 방법론?
+ 
+netstat -anp | grep LISTEN | grep :21
+netstat -anp | grep :21
+
+http://www.betchin.net/bbs/board.php?bo_table=toon&wr_id=776
+http://www.betchin.net/bbs/board.php?bo_table=toon
+/*
+1	Check/money order
+2	Cash on delivery
+3	Bank Transfer
+4	Purchase Order
+5	Zero Subtotal Checkout
+*/
+http://www.magestore.com/magento-2-tutorial/magento-2-payment-methods/
+http://www.magestore.com/magento-2-tutorial/2361-2/
+http://www.magestore.com/magento-2-tutorial/magento-2-paypal-setup/
+https://github.com/Adyen/adyen-checkout-android
+// Developer Toolbar for Magento2
+composer require vpietri/adm-quickdevbar
+php bin/magento setup:upgrade
+php bin/magento cache:flush
+The configuration is in Stores/Advanced/Developer/Quick dev bar configuration 
+
+http://alanstorm.com/magento-2-uielement-object-features-and-checkout-application/
+http://alanstorm.com/magento-2-remaining-uielement-defaults/ 
+checkout\resource-url-manager.js
+lib/web/mage/storage.js
+ mage\storage.js => for ajax
+ $.ajax
+ storage.post
+ storage.get
+ storage.delete
+ storage.put
+ 
+ http://blog.chapagain.com.np/magento-2-get-store-information-store-id-code-name-url-website-id/
+ /carts/mine/estimate-shipping-methods-by-address-id
+ url = "/carts/mine/estimate-shipping-methods-by-address-id", urlParams = Object {method: "rest", storeCode: "default", version: "V1"}
+ 
+ https://github.com/magespecialist/m2-MSP_DevTools#magespecialist-devtools-for-magento-2
+ http://www.magespecialist.it/blog/2016/08/11/magento-devtools-available-helping-magento-developers-all-around-the-world/
+ killall --user $USER -TERM
+ https://inviqa.com/blog/using-knockout-js-magento-2
+------------------- Open Cloud ---
+http://wiki.opencloudengine.org/pages/viewpage.action?pageId=2852295
+http://www.opencloudengine.org/svn/realtimestream/trunk/
+
+http://www.iamport.kr/
+http://demo.movingcart.kr
+https://admin.iamport.kr
+
+
+https://github.com/mirasvit/module-blog
+https://mirasvit.com/magento-2-extensions/blog.html
+https://mirasvit.com/blog/building-tabbed-interface-with-magento-2-javascript-ui.html
+
+https://github.com/aleron75/mageres
+http://magento.stackexchange.com/questions/120447/how-does-magento-2-apply-knockoutjs-bindings/120730
+
+https://www.youtube.com/watch?v=NK2A_brksco&feature=youtu.be
+https://www.youtube.com/watch?v=NOZUjq_UWys
+https://www.youtube.com/channel/UCdL9BnGavnZaW5zKOvNqQgg
+https://www.youtube.com/watch?v=6jW08ZTpgNk  ///*  */Create custom module in Magento 2.1 complete tutorial
+
+
+
+cd /var/www/public/ma2.1.1
+php bin/magento setup:upgrade
+php bin/magento setup:di:compile
+http://211.241.201.95/ma2.1.1/kr_zipcode
+
+php bin/magento module:uninstall Ibnab_CustomerPut
+
+
+http://www.learnmagento.com/magento-2-how-to-add-and-remove-custom-category-attribute/
+
+
+https://www.mageplaza.com/magento-2-module-development/how-to-create-controllers-magento-2.html
+http://magento.stackexchange.com/questions/86497/how-to-override-core-block-model-and-controller-in-magento2
+http://magento.stackexchange.com/questions/91472/unable-to-extend-customer-address-edit-page-in-magento-2
+AccountManagement
+http://magento.stackexchange.com/questions/91304/magento-2-fail-to-add-a-plugin-to-the-model-class-customer-php
+search magento 2 cutomer address module plugin
+	
+https://community.magento.com/t5/tag/magento2/tg-p/board-id/ask-the-architect	
+
+http://www.magestore.com/magento-2-tutorial/how-to-edit-product-reviews-in-magento-2/
+https://www.demacmedia.com/magento-commerce/tutorial-how-to-auto-approve-reviews-for-registered-users-in-magento/
+
+Magento 2 Module Development Series
+https://www.mageplaza.com/magento-2-module-development/create-admin-grid-magento-2.html
+https://github.com/mageplaza/magento2-samples/tree/master/sample-module-interception
+http://devdocs.magento.com/guides/v2.1/extension-dev-guide/plugins.html
+http://devdocs.magento.com/guides/v2.0/extension-dev-guide/attributes.html
+
+http://blog.belvg.com/how-to-add-column-in-sales-order-grid-in-magento-2-1.html
+http://blog.belvg.com/category/magento-news/magento_2
+
+
+---Address Field
+팝업폼 #opc-new-shipping-address
+popUpForm
+
+
+http://magento.stackexchange.com/questions/98262/how-to-extend-inject-this-to-customer-address-in-magento-2
+http://magento.stackexchange.com/questions/87131/adding-button-in-magento-2
+https://archive.org/search.php?query=mediatype%3A%22data%22
+https://archive.org/details/stackexchange
+http://data.stackexchange.com/magento/queries
+http://data.stackexchange.com/
+--magento2 customize address zip code search button
+http://gitlab.oye.io/oyenet/m2DeliveryDate2
+http://oyenetwork.com/articles/magento2-devliery-date-module-creation-from-scratch/
+
+additional-fieldsets // shipping-new-address-form
+<!-- ko foreach: getRegion('additional-fieldsets') -->
+        <!-- ko template: getTemplate() --><!-- /ko -->
+        <!--/ko-->
+http://inchoo.net/magento-2/knockout-js-in-magento-2/
+http://devdocs.magento.com/guides/v2.0/howdoi/checkout/checkout_address.html
+https://inviqa.com/blog/technical-guide-magento-2-checkout
+https://inviqa.com/blog/using-knockout-js-magento-2
+https://inviqa.com/blog/magento-2-tutorial-how-use-new-front-end-templating-system
+https://mage2gen.com/
+https://mage2gen.com/snippets/payment/
+
+
+http://devdocs.magento.com/guides/v2.1/howdoi/checkout/checkout_overview.html
+https://ranasohel.me/2015/11/28/how-to-add-custom-field-to-shipping-address-form-in-magento-2-onepage-checkout/
+https://github.com/sohelrana09/magento2-module-checkoutadditionalfield
+http://magento.stackexchange.com/questions/105881/how-to-chage-the-label-of-region-id-field-in-checkout-form
+https://ranasohel.me/2015/11/28/how-to-add-custom-field-to-shipping-address-form-in-magento-2-onepage-checkout/
+https://github.com/sohelrana09
+https://github.com/sohelrana09/sr-module-trashcan
+magento2 LayoutProcessor postcode
+
+http://excellencemagentoblog.com/blog/2016/04/10/magento2-grid-ui-component/
+http://excellencemagentoblog.com/blog/category/magento-blogs/module-development-series/
+http://magento.stackexchange.com/questions/130985/magento-2-how-to-add-the-datetime-ui-component
+https://github.com/webspeaks/productsgrid_magento2
+https://github.com/chiragit007/customgrid-faq-extension-magento2
+
+
+http://magento.stackexchange.com/questions/138454/magento-2-remove-postcode-field-on-checkout
+http://serbu.me/2016/10/01/how-to-remove-postcode-field-from-magento2-checkout/
+
+
+http://devdocs.magento.com/guides/v2.0/test/unit/unit_test_execution_phpstorm.html
+https://github.com/tzyganu/Magento2SampleModule
+// Module Creator
+https://github.com/tzyganu/UMC1.9/wiki/sample 
+x-debug bookmark
+https://www.jetbrains.com/phpstorm/marklets/
+https://www.jetbrains.com/phpstorm/documentation/phpstorm-video-tutorials.html#10
+https://github.com/magento-hackathon/FastSimpleExport2
+https://github.com/magento-hackathon/EAVCleaner
+mage-hackathon.de
+
+vagrant
+https://github.com/paliarush/magento2-vagrant-for-developers
+https://github.com/rgranadino/mage2_vagrant
+https://www.linuxbabe.com/desktop-linux/install-phpstorm-ubuntu-15-10
+
+web api develop
+http://devdocs.magento.com/guides/v2.0/rest/rest_endpoints.html
+curl http://211.241.201.95/ma2.1.1/rest/default/schema&services=eavAttributeSetRepositoryV1
+
+http://devdocs.magento.com/guides/v2.0/rest/rest_endpoints.html
+http://inchoo.net/magento/api-magento/magento-2-custom-api/
+https://alankent.me/2015/07/24/creating-a-new-rest-web-service-in-magento-2/
+magento 2 scaffolding
+https://github.com/brideo/phpstorm-live-templates-magento-2
+http://brideo.co.uk/magento2/Databases-And-Eav-in-Magento-2/
+https://libraries.io/github/brideo
+https://packagist.org/packages/compropago/magento2
+https://compropago.com/documentacion/plugins
+https://libraries.io/github/meanbee/example-magento2-module
+http://brideo.co.uk/magento2/Rendering-in-Magento-2/
+https://alankent.me/2015/01/24/magento-2-containers-and-blocks/
+http://brideo.co.uk/blog/
+http://brideo.co.uk/magento2/Magento-2-PHP-Storm-Live-Templates/
+http://knockoutjs.com/documentation/json-data.html
+http://blog.naver.com/PostView.nhn?blogId=ehdghehd10xh&logNo=80202419888&parentCategoryNo=10&categoryNo=&viewDate=&isShowPopularPosts=false&from=section
+admin panel Training
+https://www.maximehuran.fr/en/setup-management-on-magento-2/
+https://www.maximehuran.fr/en/practical-create-grid-forms-and-controllers-for-job-object/
+https://www.maximehuran.fr/en/create-a-cron-job-with-magento-2/
+https://www.ashsmith.io/magento2/module-from-scratch-part-5-adminhtml/
+https://www.maximehuran.fr/en/before-developping-2/
+http://www.ibnab.com/en/blog/magento-2/magento-2-add-custom-eav-attribute-to-category-or-customer
+https://github.com/ibnab
+http://www.ibnab.com/en/blog/magento-2
+http://www.ibnab.com/en/blog/magento-2/magento-2-concept-model-resource-db-and-collection-part3
+
+https://github.com/maximehuran
+https://icomoon.io/app/#/select/font
+
+https://github.com/bitExpert
+
+https://www.maximehuran.fr/en/category/magento-one/magento-1-tutorials/
+
+https://firebearstudio.com/blog/magento-2-command-line-tool-binmagento.html
+
+주소록에 팝업으로 우편 번호 제공
+http://devdocs.magento.com/guides/v2.0/howdoi/checkout/checkout_address.html
+https://mage2.pro/t/topic/1049
+https://postcodify.poesis.kr/guide/example
+https://wordpress.org/plugins/beomps-korea-postcode-search/
+http://subicura.com/2016/05/30/likehs-develop-log.html
+https://postcodify.poesis.kr/guide/example
+http://blog.naver.com/ehdghehd10xh/80202964747 : 마젠토 개발 정리
+
+shipping.html / checkout_index_index.xml 
+http://magento.stackexchange.com/questions/98262/how-to-extend-inject-this-to-customer-address-in-magento-2
+
+=====================================================================
+http://www.apaddedcell.com/easy-php-debugging-ubuntu-using-xdebug-and-vim
+
+
+sudo pecl install xdebug-beta
+===========================================================================
+
+roni_cost@example.com/roni_cost3@example.com
+
+
+
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+
+subl &
+
+Language i18n 추가
+https://gist.github.com/antonmakarenko/7538216
+
+"general/locale/code"
+namespace Magento\Framework\App\Language\Dictionary.getDictionary()  함수
+  while (($row = $file->readCsv()) !== false) {
+                    $result[$row[0]] = $row[1];
+                } 
+				부분을 변경 해야함
+				에서 가져옴
+namespace Magento\Framework\App\Language\Dictionary.readPackCsv() 에서 
+$foundCsvFile 변수
+Magento\Framework\Filesystem\DriverInterface
+Magento\Framework\Filesystem\File\Read.readCsv()
+http://babo.co/information/opensource/magento/magento2-installation-on-php7
+demo.smileboylab.com
+
+composer create-project --repository-url=https://repo.magento.com/magento/project-enterprise-edition=2.1.0 magento2
+
+composer create-project --repository-url=https://repo.magento.com/magento/project-enterprise-edition=2.1.0 magento2.1ee
+
+./vendor/bin/phpunit -c dev/tests/unit/phpunit.xml.dist
+./vendor/bin/phpunit -c dev/tests/unit/phpunit.xml.dist app/code/Example/Module/Test/Unit
+http://devdocs.magento.com/guides/v2.0/test/unit/unit_test_execution_cli.html
+php -f vendor/bin/phpunit -- -c dev/tests/unit/phpunit.xml.dist
+magento dev:tests:run --help
+magento dev:tests:run integration
+magento info:dependencies:{show-modules|show-modules-circular|show-framework} [-d|--directory="<path>"] [-o|--output="<path and filename"]
+php bin/magento info:dependencies:show-modules
+
+http://jnslove.net/category/magento/
+
+--전체 파일 출력
+http://blog.landofcoder.com/magento-2-translation/
+http://landofcoder.com/magento-2-mega-menu.html/
+php bin/magento i18n:collect-phrases -o "/var/www/html/en_US_m2.1.2.csv" -m
+php bin/magento i18n:collect-phrases -o "/var/www/public/en_US_m2.1.2.csv" -m
+php bin/magento setup:store-config:set --base-url http://192.168.88.202/magento2.1.0
+
+php bin/magento i18n:collect-phrases -o "c:\en_US.csv" -m 
+
+php bin/magento setup:static-content:deploy
+php bin/magento setup:static-content:deploy fr_FR
+php bin/magento indexer:reindex
+php bin/magento indexer:reindex catalogsearch_fulltext
+php bin/magento cache:clean
+php bin/magento cache:flush
+
+cd /var/www/public/ma2.1.1
+php bin/magento setup:static-content:deploy ko_KR
+php bin/magento setup:static-content:deploy ja_JP
+
+php bin/magento indexer:reindex
+php bin/magento cache:clean
+php bin/magento cache:flush
+
+
+find /var/www -size +20000 -print
+find pub/static -exec chmod 777 '{}' +
+find var -exec chmod 777 '{}' + 
+
+find /var/www -size +20000 -print
+
+php bin/magento info:adminuri
+
+
+php -f bin/magento indexer:reindex
+
+php -f bin/magento cache:disable
+php -f bin/magento cache:clean
+php -f bin/magento cache:flusy
+
+* * * * * php /var/www/public/ma2.1.1/bin/magento cron:run | grep -v "Ran jobs by schedule" >> /var/www/public/ma2.1.1/bin/magento/var/log/magento.cron.log
+* * * * * php /var/www/public/ma2.1.1/update/cron.php >> /var/www/public/ma2.1.1/var/log/update.cron.log
+* * * * * php /var/www/public/ma2.1.1/bin/magento setup:cron:run >> /var/www/public/ma2.1.1/var/log/setup.cron.log
+cd  /var/www/public/ma2.1.1
+cd  /var/www/public/magento2.1.0
+
+/magento2.1.0/pub/static/adminhtml/Magento/backend/ja_JP/extjs/resources/css/ext-all.css
+
+
+https://github.com/mageplaza
+Name: www.crackinn.com
+Serial: C87F-P0I1-69H0-2192-327Y-8927-KWSA
+Search entire store here...,ストア全?から?索....,상점 전체에서 검색
+http://api.microsofttranslator.com/v2/ajax.svc/Detect?appId=TttKpJtumuzmTml_NtrXzISjguCAXWV_tYB5zPC-Y0Kc*&text=%E3%83%A9%E3%83%99%E3%83%AB\\
+http://api.microsofttranslator.com/v2/ajax.svc/Translate?appId=TttKpJtumuzmTml_NtrXzISjguCAXWV_tYB5zPC-Y0Kc*&text=%E3%83%A9%E3%83%99%E3%83%AB2&from=ja&to=ko
+http://www.coolryan.com/magento/2016/01/20/observers-magento-2-2/
+https://www.maxpronko.com/tag:magento%202
+https://www.maxpronko.com/blog/magento-2-payment-gateway-api
+http://mageclass.com/
+http://mageclass.com/how-to-change-product-image-in-cart-and-minicart-in-magento2/
+http://mageclass.com/quick-tip-how-to-use-image-wyswyg-or-any-other-non-standard-field-in-magento2-widget/
+http://mageclass.com/screencast-how-to-change-core-functionality-in-magento2/
+http://inchoo.net/category/magento-2/
+https://github.com/Kveikur/magento2_custom_widget
+http://alanstorm.com/category/magento
+http://alanstorm.com/magento_2_object_manager
+http://alanstorm.com/category/magento-2
+http://alanstorm.com/series/magento-2-ui/
+http://alanstorm.com/category/magento/
+http://alanstorm.com/magento_dispatch_routers
+http://stackoverflow.com/questions/32120838/in-magento-2-how-to-override-phtml-or-layout-core-files
+http://www.magestore.com/magento-2-tutorial/magento-2-how-to-configure-url-rewrites/
+http://www.magestore.com/magento-2-tutorial
+http://devdocs.magento.com/guides/v2.1/config-guide/db-profiler/db-profiler.html
+http://www.magestore.com/magento-2-tutorial/how-to-setup-magento-2-cron-job/
+http://www.magestore.com/magento-2-tutorial/how-to-add-magento-2-custom-discount/
+http://magekorea.com/
+http://blog.naver.com/PostList.nhn?blogId=ehdghehd10xh&categoryNo=0&from=postList
+https://github.com/astorm?tab=repositories
+https://github.com/magestore
+http://demo-magento2.magestore.com/banner-slider/admin/bannerslideradmin/banner/index/key/780253dc4f003dfceb31c3a5753b70c28d7b21e52727dbd9c6d3c10c143b9a9a/
+https://github.com/Magestore/BannerSlider-Magento
+http://magefan.com/magento2-blog-extension/#demo
+https://github.com/magefan/module-blog/tree/2.2.4
+composer require magefan/module-blog
+composer require ebizmarts/magento2-magemonkey
+https://packagist.org/packages/ebizmarts/magento2-magemonkey
+https://github.com/OfficeDev?utf8=%E2%9C%93&query=-Add-IN
+
+
+http://devdocs.magento.com/guides/v2.1/extension-dev-guide/depend-inj.html#dependency-injection-overview
+http://devdocs.magento.com/guides/v2.1/config-guide/bootstrap/magento-bootstrap.html
+http://devdocs.magento.com/guides/v2.1/extension-dev-guide/api-concepts.html
+http://devdocs.magento.com/guides/v2.1/extension-dev-guide/plugins.html
+
+omposer require imaginaerum/magento2-language-fr-fr
+============================================
+url WRITE reindex
+php bin/magento index:reindex
+
+php bin/magento cron:run
+
+=============================================
+php bin/magento sampledata:deploy
+
+"Magento\Backend\App\Request\PathInfoProcessor"
+
+helper: Magento\Backend\Helper\Data
+subject: Magento\Store\App\Request\PathInfoProcessor
+
+
+  public function process(\Magento\Framework\App\RequestInterface $request, $pathInfo)
+    {
+        $pathParts = explode('/', ltrim($pathInfo, '/'), 2);
+        $firstPart = $pathParts[0];                             // "joust-duffle-bag.html"
+
+        if ($firstPart != $this->_helper->getAreaFrontName()) {
+            return $this->_subject->process($request, $pathInfo);
+        }
+        return $pathInfo;   //"/joust-duffle-bag.html"
+    }
+
+Magento\Framework\App\Http\Context
+ data : customer_group, customer_logged_in, store, current_currency : KRW
+Magento\Framework\App\Response\Http\Interceptor
+
+
+$pluginInfo
+   "response-http-page-cache"  => magento2/vendor/magento/module-page-cache/etc/frontend/di.xml
+   "xFrameOptionsHeader"
+
+http://devdocs.magento.com/guides/v2.0/config-guide/cli/config-cli-subcommands-mode.html
+Unlike other Magento modes, developer and production modes are set in env.php.
+
+
+Current application mode: developer.
+
+magento deploy:mode:set {mode} [-s|--skip-compilation] : production/developer 
+
+php ./bin/magento deploy:mode:set developer
+ 
+ Push It Messenger Bag 한글
+Search Engine Optimization : URL KEY :push-it-messenger-bag
+http://211.241.201.66/magento2.1.0/push-it-messenger-bag.html?XDEBUG_SESSION_START=netbeans-xdebug
+
+Magento\UrlRewrite\Controller\Router
+
+Magento\Framework\View\Result\Page\Interceptor
+Magento\Framework\View\Result\Layout renderResult fun
+Magento\Framework\View\Result\Page  render
+Magento\Framework\App\PageCache\Kernel
+
+Magento\PageCache\Model\Controller\Result\BuiltinPlugin \aroundRenderResult
+
+Magento\Framework\Session\Generic writeClose()
+Theme>view\base\templates\root.phtml
+
+
+\Magento\Catalog\Controller\Product\view.php
+Magento\Catalog\Helper\Product\View
+Magento\Catalog\Controller\Product\View\Interceptor
+Magento\Framework\App\Action\Action.php
+http://alanstorm.com/magento-2-frontend-files-serving
+
+
+$rewrite	Magento\UrlRewrite\Service\V1\Data\UrlRewrite		
+_data	array[10]		
+[entity_id]	string	"14"	
+[entity_type]	string	"product"	
+[is_autogenerated]	string	"1"	
+[redirect_type]	string	"0"	
+[request_path]	string	"push-it-messenger-bag.html"	
+[store_id]	string	"1"	
+[target_path]	string	"catalog/product/view/id/14"	
+[url_rewrite_id]	string	"59"	
+defaultValues	array[4]		
+[is_autogenerated]	integer	1	
+[redirect_type]	integer	0	
+================================================================
+Magento\UrlRewrite\Service\V1\Data\UrlRewrite
+   public function match(\Magento\Framework\App\RequestInterface $request)
+    {
+        if ($fromStore = $request->getParam('___from_store')) {
+            $oldStoreId = $this->storeManager->getStore($fromStore)->getId();
+            $oldRewrite = $this->getRewrite($request->getPathInfo(), $oldStoreId);
+            if ($oldRewrite) {
+                $rewrite = $this->urlFinder->findOneByData(
+                    [
+                        UrlRewrite::ENTITY_TYPE => $oldRewrite->getEntityType(),
+                        UrlRewrite::ENTITY_ID => $oldRewrite->getEntityId(),
+                        UrlRewrite::STORE_ID => $this->storeManager->getStore()->getId(),
+                        UrlRewrite::IS_AUTOGENERATED => 1,
+                    ]
+                );
+                if ($rewrite && $rewrite->getRequestPath() !== $oldRewrite->getRequestPath()) {
+                    return $this->redirect($request, $rewrite->getRequestPath(), OptionProvider::TEMPORARY);
+                }
+            }
+        }
+        $rewrite = $this->getRewrite($request->getPathInfo(), $this->storeManager->getStore()->getId());
+        if ($rewrite === null) {
+            return null;
+        }
+
+        if ($rewrite->getRedirectType()) {
+            return $this->processRedirect($request, $rewrite);
+        }
+
+        $request->setAlias(\Magento\Framework\UrlInterface::REWRITE_REQUEST_PATH_ALIAS, $rewrite->getRequestPath());
+        $request->setPathInfo('/' . $rewrite->getTargetPath());
+        return $this->actionFactory->create('Magento\Framework\App\Action\Forward');
+    }
+===============================================================
+Magento\UrlRewrite\Model\UrlFinderInterface
+Magento\UrlRewrite\Model\Storage\AbstractStorage findOneByData(); 에서 
+//
+[request_path]	string	"push-it-messenger-bag-2-jw.html"	
+[store_id]	string	"1"	
+//
+[entity_id]	string	"14"	
+[entity_type]	string	"product"	
+[store_id]	string	"1"
+
+ Magento\Catalog\Model\Product\Url getUrl()
+/view/frontend/templates/product/view/opengraph/general.phtml.include:16	
+
+===== View 
+Model/Controller/Result/VarnishPlugin.php.Magento\PageCache\Model\Controller\Result\VarnishPlugin->aroundRenderResult:74	
+Interception/Interceptor.php.Magento\Framework\View\Result\Page\Interceptor->___callParent:74	
+View/Result/Page.php.Magento\Framework\View\Result\Page->render:236	
+view/frontend/templates/html/container.phtml.include:10	
+var/generation/Magento/Framework/View/Layout/Interceptor.php.Magento\Framework\View\Layout\Interceptor->renderElement:193	
+View/Layout.php.Magento\Framework\View\Layout->renderNonCachedElement:518	
+view/frontend/templates/product/view/opengraph/general.phtml.include:16	
+
+Magento\Catalog\Model\ResourceModel\Product\Collection
+Magento\Eav\Model\Entity\AttributeLoader\getAttributeLoader()
+Magento\Eav\Model\Entity\AttributeLoader\loadAllAttributes()
+Magento\Eav\Model\Entity\AttributeCache\saveAttributes()
+
+========================================================================
+==============================
+--html로 변환 하는 부분
+http://211.241.201.66/Magent2.0.7/joust-duffle-bag.html??XDEBUG_SESSION_START=netbeans-xdebug
+
+root.phtml
+
+
+
+DiCompileCommand.php 
+
+php bin/magento setup:upgrade
+php bin/magento setup:di:compile   (Magento\Setup\Console\Command\DiCompileCommand
+
+php bin/magento setup:di:compile -vvv
+
+php bin/magento cache:flush 
+
+php bin/magento setup:static-content:deploy
+
+when I try to run bin/magento deploy:mode:set production it fails while executing 
+php -f bin/magento setup:di:compile-multi-tenant 2>&1
+
+
+
+https://firebearstudio.com/blog/magento-2-payment-gateways.html
+https://firebearstudio.com/blog/magento-2-shipping-methods.html
+
+http://inchoo.net/magento-2/routing-in-magento-2/
+https://github.com/zoransalamun/magento2-custom-router
+composer config repositories.inchoocustomrouter vcs git@github.com:zoransalamun/magento2-custom-router.git
+composer require inchoo/custom-router:dev-master
+
+Magento 2 id/pw changwng@naver.com/dkagh1234..
+github changwng@gmail.com/cw8904
+git oAuth key : 900a611d6378290b2cb608d65afc2df02b73cd9c
+
+php bin/magento module:enable Inchoo_CustomRouter  하면 registration 파일이 없어서 만들어 줘야 함
+php bin/magento setup:upgrade
+
+root folder create file auth.json
+=========================================
+{
+   "github-oauth": {
+     "github.com": "900a611d6378290b2cb608d65afc2df02b73cd9c"
+   },
+   "http-basic": {
+      "repo.magento.com": {
+         "username": "9501759956d8f9e3b362543da9a79ca9",
+         "password": "a3f4e3bbb597e6de0f90ec3f4bef6949"
+      }
+   }
+}
+=========================================
+ Payment GateWay : https://github.com/Inchoo/magento2-Inchoo_Stripe
+https://github.com/Inchoo
+https://github.com/Inchoo/magento2-Inchoo_Stripe
+http://inchoo.net/
+http://inchoo.net/magento-2/implementing-payment-gateway-magento-2/
+
+http://211.241.201.66/Magent2.0.7
+
+changwng@naver.com
+
+http://inchoo.net/magento/creating-an-eav-based-models-in-magento/
+
+=========================================
+
+call
+http://211.241.201.66/Magent2.0.7/women/tops-women/hoodies-and-sweatshirts-women.html?XDEBUG_SESSION_START=netbeans-xdebug
+Magento\Framework\App => FrontController implements FrontControllerInterface
+ 
+Magento\Framework\App\Http launch()
+Magento\Framework\App\FrontControllerInterface
+
+Magento\Store\App\FrontController\Plugin => RequestPreprocessor
+
+requrest
+    route => (string) catalog
+    pathInfo => (string) /catalog/category/view/id/24
+    originalPathInfo => (string) /women/tops-women/hoodies-and-sweatshirts-women.html
+
+
+\Magento\Framework\Interception\ChainInterface\Chain
+invokeNext : before, around, after
+=======================================================
+EAV 모델의 이해
+http://m.blog.naver.com/sol9501/220533695835
+
+http://devdocs.magento.com/guides/m1x/magefordev/mage-for-dev-7.html
+
+ EAV
+	Customer
+	Customer Address
+	Porducts
+	Product Categories
+	Orders
+	Invoices
+	Credit Memos
+	Shipments
+=====================================
+	Product Model은 40개의 테이블 분산
+
+ma2eav_entity_type 테이블에 정의됨
+1	customer
+2	customer_address
+3	catalog_category
+4	catalog_product
+5	order
+6	invoice
+7	creditmemo
+8	shipment
+9	foggyline_office_employee
+=====================================
+ select * from ma2eav_entity_type;
+=====================================
+ --- products
+ select * from ma2eav_attribute
+ where entity_type_id=4;
+ -- orders
+  select * from ma2eav_attribute
+ where entity_type_id<> 4;
+ 
+ select * from ma2catalog_product_entity;
+ 
+ select * from ma2eav_entity_type;
+ 
+ select * from ma2eav_attribute
+ WHERE `entity_type_id` =4 AND `attribute_code` = 'name';
+ 
+  select * from ma2catalog_product_entity_varchar
+  WHERE attribute_id=70;
+
+  -- 상품 정보
+ SELECT p.entity_id AS product_id, var.value AS product_name, p.sku 
+AS product_sku
+ FROM ma2catalog_produ`ct_entity p, ma2eav_attribute eav, 
+ma2catalog_product_entity_varchar var 
+WHERE eav.entity_type_id =4
+AND var.entity_id = p.entity_id
+AND eav.attribute_code = 'name'
+AND eav.attribute_id = var.attribute_id
+;
+
+
+admin_passwords
+admin_system_messages
+admin_user
+adminnotification_inbox
+aion_test
+amasty_helloworld
+authorization_role
+authorization_rule
+cache INDEX tbl_name PARTITION (partition_name IN key_cache_name
+cache_tag
+captcha_log
+catalog_category_entity
+catalog_category_entity_datetime
+catalog_category_entity_decimal
+catalog_category_entity_int
+catalog_category_entity_text
+catalog_category_entity_varchar
+catalog_category_product
+catalog_category_product_index
+catalog_category_product_index_tmp
+catalog_compare_item
+catalog_eav_attribute
+catalog_product_bundle_option
+catalog`_product_bundle_option_value
+catalog_product_bundle_price_index
+catalog_product_bundle_selection
+catalog_product_bundle_selection_price
+catalog_product_bundle_stock_index
+catalog_product_entity
+catalog_product_entity_datetime
+catalog_product_entity_decimal
+catalog_product_entity_gallery
+catalog_product_entity_int
+catalog_product_entity_media_gallery
+catalog_product_entity_media_gallery_value
+catalog_product_entity_media_gallery_value_to_entity
+catalog_product_entity_media_gallery_value_video
+catalog_product_entity_text
+catalog_product_entity_tier_price
+catalog_product_entity_varchar
+catalog_product_index_eav
+catalog_product_index_eav_decimal
+catalog_product_index_eav_decimal_idx
+catalog_product_index_eav_decimal_tmp
+catalog_product_index_eav_idx
+catalog_product_index_eav_tmp
+catalog_product_index_price
+catalog_product_index_price_bundle_idx
+catalog_product_index_price_bundle_opt_idx
+catalog_product_index_price_bundle_opt_tmp
+catalog_product_index_price_bundle_sel_idx
+catalog_product_index_price_bundle_sel_tmp
+catalog_product_index_price_bundle_tmp
+catalog_product_index_price_cfg_opt_agr_idx
+catalog_product_index_price_cfg_opt_agr_tmp
+catalog_product_index_price_cfg_opt_idx
+catalog_product_index_price_cfg_opt_tmp
+catalog_product_index_price_downlod_idx
+catalog_product_index_price_downlod_tmp
+catalog_product_index_price_final_idx
+catalog_product_index_price_final_tmp
+catalog_product_index_price_idx
+catalog_product_index_price_opt_agr_idx
+catalog_product_index_price_opt_agr_tmp
+catalog_product_index_price_opt_idx
+catalog_product_index_price_opt_tmp
+catalog_product_index_price_tmp
+catalog_product_index_tier_price
+catalog_product_index_website
+catalog_product_link
+catalog_product_link_attribute
+catalog_product_link_attribute_decimal
+catalog_product_link_attribute_int
+catalog_product_link_attribute_varchar
+catalog_product_link_type
+catalog_product_option
+catalog_product_option_price
+catalog_product_option_title
+catalog_product_option_type_price
+catalog_product_option_type_title
+catalog_product_option_type_value
+catalog_product_relation
+catalog_product_super_attribute
+catalog_product_super_attribute_label
+catalog_product_super_link
+catalog_product_website
+catalog_url_rewrite_product_category
+cataloginventory_stock
+cataloginventory_stock_item
+cataloginventory_stock_status
+cataloginventory_stock_status_idx
+cataloginventory_stock_status_tmp
+catalogrule
+catalogrule_customer_group
+catalogrule_group_website
+catalogrule_product
+catalogrule_product_price
+catalogrule_website
+catalogsearch_fulltext_scope1
+checkout_agreement
+checkout_agreement_store
+cms_block
+cms_block_store
+cms_page
+cms_page_store
+core_config_data
+cron_schedule
+customer_address_entity
+customer_address_entity_datetime
+customer_address_entity_decimal
+customer_address_entity_int
+customer_address_entity_text
+customer_address_entity_varchar
+customer_eav_attribute
+customer_eav_attribute_website
+customer_entity
+customer_entity_datetime
+customer_entity_decimal
+customer_entity_int
+customer_entity_text
+customer_entity_varchar
+customer_form_attribute
+customer_grid_flat
+customer_group
+customer_log
+customer_visitor
+design_change
+directory_country
+directory_country_format
+directory_country_region
+directory_country_region_name
+directory_currency_rate
+downloadable_link
+downloadable_link_price
+downloadable_link_purchased
+downloadable_link_purchased_item
+downloadable_link_title
+downloadable_sample
+downloadable_sample_title
+eav_attribute
+eav_attribute_group
+eav_attribute_label
+eav_attribute_option
+eav_attribute_option_swatch
+eav_attribute_option_value
+eav_attribute_set
+eav_entity
+eav_entity_attribute
+eav_entity_datetime
+eav_entity_decimal
+eav_entity_int
+eav_entity_store
+eav_entity_text
+eav_entity_type
+eav_entity_varchar
+eav_form_element
+eav_form_fieldset
+eav_form_fieldset_label
+eav_form_type
+eav_form_type_entity
+email_template
+flag
+foggyline_office_department
+foggyline_office_employee_entity
+foggyline_office_employee_entity_datetime
+foggyline_office_employee_entity_decimal
+foggyline_office_employee_entity_int
+foggyline_office_employee_entity_text
+foggyline_office_employee_entity_varchar
+gift_message
+googleoptimizer_code
+import_history
+importexport_importdata
+indexer_state
+integration
+layout_link
+layout_update
+mview_state
+newsletter_problem
+newsletter_queue
+newsletter_queue_link
+newsletter_queue_store_link
+newsletter_subscriber
+newsletter_template
+oauth_consumer
+oauth_nonce
+oauth_token
+oauth_token_request_log
+paypal_billing_agreement
+paypal_billing_agreement_order
+paypal_cert
+paypal_payment_transaction
+paypal_settlement_report
+paypal_settlement_report_row
+persistent_session
+product_alert_price
+product_alert_stock
+quote
+quote_address
+quote_address_item
+quote_id_mask
+quote_item
+quote_item_option
+quote_payment
+quote_shipping_rate
+rating
+rating_entity
+rating_option
+rating_option_vote
+rating_option_vote_aggregated
+rating_store
+rating_title
+report_compared_product_index
+report_event
+report_event_types
+report_viewed_product_aggregated_daily
+report_viewed_product_aggregated_monthly
+report_viewed_product_aggregated_yearly
+report_viewed_product_index
+reporting_counts
+reporting_module_status
+reporting_orders
+reporting_system_updates
+reporting_users
+review
+review_detail
+review_entity
+review_entity_summary
+review_status
+review_store
+sales_bestsellers_aggregated_daily
+sales_bestsellers_aggregated_monthly
+sales_bestsellers_aggregated_yearly
+sales_creditmemo
+sales_creditmemo_comment
+sales_creditmemo_grid
+sales_creditmemo_item
+sales_invoice
+sales_invoice_comment
+sales_invoice_grid
+sales_invoice_item
+sales_invoiced_aggregated
+sales_invoiced_aggregated_order
+sales_order
+sales_order_address
+sales_order_aggregated_created
+sales_order_aggregated_updated
+sales_order_grid
+sales_order_item
+sales_order_payment
+sales_order_status ma211
+sales_order_status_history
+sales_order_status_label
+sales_order_status_state
+sales_order_tax
+sales_order_tax_item
+sales_payment_transaction
+sales_refunded_aggregated
+sales_refunded_aggregated_order
+sales_sequence_meta
+sales_sequence_profile
+sales_shipment
+sales_shipment_comment
+sales_shipment_grid
+sales_shipment_item
+sales_shipment_track
+sales_shipping_aggregated
+sales_shipping_aggregated_order
+salesrule
+salesrule_coupon
+salesrule_coupon_aggregated
+salesrule_coupon_aggregated_order
+salesrule_coupon_aggregated_updated
+salesrule_coupon_usage
+salesrule_customer
+salesrule_customer_group
+salesrule_label
+salesrule_product_attribute
+salesrule_website
+search_query
+sendfriend_log
+sequence_creditmemo_0
+sequence_creditmemo_1
+sequence_invoice_0
+sequence_invoice_1
+sequence_order_0
+sequence_order_1
+sequence_shipment_0
+sequence_shipment_1
+session
+setup_module
+shipping_tablerate
+sitemap
+store
+store_group
+store_website
+tax_calculation
+tax_calculation_rate
+tax_calculation_rate_title
+tax_calculation_rule
+tax_class
+tax_order_aggretgated_created
+tax_order_aggregated_updated
+theme
+theme_file
+translation
+ui_bookmark
+url_rewrite
+variable
+variable_value
+weee_tax
+widget
+widget_instance
+widget_instance_page
+widget_instance_page_layout
+wishlist
+wishlist_item
+wishlist_item_option
+
+
+SELECT * FROM ma2url_rewrite
+WHERE entity_id=14;
+
+
+https://github.com/Inchoo/magento2-Inchoo_Stripe
+http://inchoo.net/magento-2/implementing-payment-gateway-magento-2/
+https://github.com/uchenic/magento2-module-payment-tmrobokassa
+
+https://www.maxpronko.com/blog/magento-2-payment-gateway-api
+https://www.maxpronko.com/blog/magento-2-payment-adapter-configuration
+https://www.maxpronko.com/blog/how-to-create-custom-logger-in-magento-2
+
+=============================
+http://brideo.co.uk/magento2/Request-Flow-In-Magento-2/
+http://www.dckap.com/blog/magento-2-request-routing/
+http://inchoo.net/magento-2/routing-in-magento-2/
+==================================
+Please keep this information for your records:
+
+Magento Admin Info:
+
+Username:
+admin
+Email:
+changwng@gmail.com
+Password:
+******
+Your Store Address:
+http://211.241.201.66/magento2.1.0/
+Magento Admin Address:
+http://211.241.201.66/magento2.1.0/admin/
+Be sure to bookmark your unique URL and record it offline.
+Encryption Key:
+2f226e5d5ebe83222e9189f9534abbe7
+Database Info:
+
+Database Name:
+magento210
+Username:
+root
+Password:
+******
+====================================
+
+
+
+
+SELECT `store`.* FROM `store` WHERE (`store`.`code`='what-is-new.html') ORDER BY `sort_order` ASC
+
+
+
+Official Magento 2 Developer Docs: http://devdocs.magento.com/
+Alan Kent's Blog: http://alankent.me/
+Alan Storm's Blog, Magento category: http://alanstorm.com/category/magento
+Karen Baker's Blog, Magento 2 articles: http://karenbaker.me/category/magento-2/
+MageClass, Magento2 tutorials, screencasts and up to date news: http://mageclass.com
+FireBear Studio blog, collection of tutorials and resources: https://firebearstudio.com/blog/the-ultimate-magento-2-tutorial.html
+Magento 2 tag on StackExchange: http://magento.stackexchange.com/questions/tagged/magento2
+
+Max Pronko's blog: http://www.maxpronko.com/tag:magento%202	
+===============================================
+Translate interface
+Magento\Framework\Phrase\RendererInterface
+Magento\Framework\Phrase\Renderer\Translate
+Phrase :
+Class *\Magento\Framework\Phrase* calls renderer to make the translation of the text. **Phrase** provides *RendererInterface* and a few renderers to support different kinds of needs of translation of the text. Here are list of renderers in this library:
+
+ * Placeholder render - it replaces placeholders with parameters for substitution. It is the default render if none is set for the Phrase.
+ * Translate render - it is a base renderer that implements text translations.
+ * Inline render - it adds inline translate part to text translation and returns the strings by a template.
+ * Composite render - it can have several renderers, calls each renderer for processing the text. Array of renderer class names pass into composite render constructor as a parameter.
+
+명사:
+	구 (phrase, nine, ward, orb, globe, moxibustion)
+	숙어 (phrase)
+	명언 (wise saying, phrase, declaration)
+	문자 (character, phrase)
+	표현법 (expression, phrase)
+	작은 악절 (phrase)
+	실없는 말 (piffle, phrases, phrase)
+동사:
+	말로 나타내다 (phrase, voice, verbalize)
+====================================================
+namespace Magento\Framework\App\Languag
+Dictionary
+ private function readPackCsv($vendor, $package)
+    {
+        $path = $this->componentRegistrar->getPath(ComponentRegistrar::LANGUAGE, strtolower($vendor . '_' . $package));
+        $result = [];
+        if (isset($path)) {
+            $directoryRead = $this->directoryReadFactory->create($path);
+            $foundCsvFiles = $directoryRead->search("*.csv");
+            foreach ($foundCsvFiles as $foundCsvFile) {
+                $file = $directoryRead->openFile($foundCsvFile);
+                while (($row = $file->readCsv()) !== false) {
+                 //   var_dump($row[0]."||".$row[1]); //  실제 몰록 가져 오는곳
+                    $result[$row[0]] = $row[1];
+                }
+            }
+        }
+        return $result;
+    }
+	======================================= interface locale
+	interface locale 문제
+	namespace Magento\Framework\Locale\TranslatedLists 함수;
+	   protected function _getOptionLocales($translatedName = false)
+	     if ($translatedName) {
+            //    var_dump(\Locale::getDisplayLanguage($locale, $locale));
+                //$label = ucwords(\Locale::getDisplayLanguage($locale, $locale)) 에서
+                $label = \Locale::getDisplayLanguage($locale, $locale) 이것으로 변경
+				
+=================================================================================================
+Please keep this information for your records: 2016-09-08
+
+Magento Admin Info:
+
+Username:
+admin
+Email:
+changwng@gmail.com
+Password:
+cw8904
+Your Store Address:
+http://192.168.88.202/ma2.1.1/
+Magento Admin Address:
+http://192.168.88.202/ma2.1.1/admin/
+Be sure to bookmark your unique URL and record it offline.
+Encryption Key:
+f5b34999ad4446992662efa508bc74c3
+Database Info:
+
+Database Name:
+ma211
+Username:
+root
+Password:
+cw8904
+For security, remove write permissions from these directories: '/var/www/public/ma2.1.1/app/etc'
+============================================================================================================
+namespace Magento\Framework\View\Layout\Element;
+
+    const TYPE_REFERENCE_BLOCK = 'referenceBlock';
+
+    const TYPE_REFERENCE_CONTAINER = 'referenceContainer';
+    
+    
+    
+    ======================================
+    # interfaces(5) file used by ifup(8) and ifdown(8)
+auto lo
+iface lo inet loopback
+
+iface eth0 inet static
+       address 192.168.88.202
+       netmask 255.255.255.0
+       gateway 192.168.88.2
+       dns-nameservers 192.168.88.2
+
+======================================================
+php /home/bimohani/pestle.phar generate_module Pulsestorm StartingWithLess 0.0.1
+php bin/magento module:enable Pulsestorm_StartingWithLess
+php bin/magento setup:upgrade  
+
+
+
+
+https://xdebug.org/docs/install
+
+
+
+sudo apt-get install php-pear
+sudo apt-get install php7.0-dev
+sudo apt-get install libcurl3-openssl-dev
+sudo pecl install pecl_http
+
+sudo pecl install xdebug
+
+sudo /etc/init.d/apache2 restart
+
+zend_extension=/usr/lib/php5/20060613+lfs/xdebug.so
+Having done this press Enter afterwards to create a new line (there are more settings to be pasted into the file).
+
+Select the text below, and Edit -> Copy:
+
+[debug]
+; Remote settings
+xdebug.remote_autostart=off
+xdebug.remote_enable=on
+xdebug.remote_handler=dbgp
+xdebug.remote_mode=req
+xdebug.remote_host=localhost
+xdebug.remote_port=9000
+xdebug.remote_log=/var/www/public/xdebug_1.log
+
+; General
+xdebug.auto_trace=off
+xdebug.collect_includes=on
+xdebug.collect_params=off
+xdebug.collect_return=off
+xdebug.default_enable=on
+xdebug.extended_info=1
+xdebug.manual_url=http://www.php.net
+xdebug.show_local_vars=0
+xdebug.show_mem_delta=0
+xdebug.max_nesting_level=100
+;xdebug.idekey=
+
+; Trace options
+xdebug.trace_format=0
+xdebug.trace_output_dir=/tmp
+xdebug.trace_options=0
+xdebug.trace_output_name=crc32
+
+; Profiling
+xdebug.profiler_append=0
+xdebug.profiler_enable=0
+xdebug.profiler_enable_trigger=0
+xdebug.profiler_output_dir=/tmp
+xdebug.profiler_output_name=crc32
+
+
+Xdebug On Demand for CLI PHP Scripts in PhpStorm 2016.2
+
+
+
+[XDebug]
+zend_extension = "D:\xampp\php\ext\php_xdebug-2.4.0-7.0-vc14.dll"
+xdebug.profiler_append = 0
+xdebug.profiler_enable = 0
+xdebug.profiler_enable_trigger = 0
+xdebug.profiler_output_dir = "D:\xampp\tmp"
+xdebug.profiler_output_name = "cachegrind.out.%t-%s"
+xdebug.remote_enable = 1
+xdebug.remote_handler = "dbgp"
+xdebug.remote_host = "127.0.0.1"
+xdebug.remote_port=9000
+xdebug.trace_output_dir = "D:\xampp\tmp"
+xdebug.max_nesting_level = 200
+xdebug.idekey=PHPSTORM
+	
+	
+	어드민 로그인 은
+	namespace Magento\User\Model\USER
+	public function authenticate($username, $password) 
+	admin_user_authenticate_before
+	admin_user_authenticate_after
+	캡차 이벤트
+	<event name="admin_user_authenticate_before">
+        <observer name="captcha" instance="Magento\Captcha\Observer\CheckUserLoginBackendObserver" />
+    </event>
+	
+	_afterSave
+	customer_customer_authenticated
+	 <event name="customer_customer_authenticated">
+        <observer name="captcha_reset_attempt" instance="Magento\Captcha\Observer\ResetAttemptForFrontendObserver" />
+    </event>
+    
+php -f ./bin/magento cache:disable
+php -f ./bin/magento cache:clean
+php -f ./bin/magento cache:flush
+php -f ./bin/magento cache:enable
+
+================================= IP 변경 후 db 변경 절차 ====
+mysql -u root -p
+mysql -u $USER -p $DBASE
+mysql -u root -p ma211
+
+use ma211;
+ select * from core_config_data
+ WHERE path IN ('web/secure/base_url', 'web/unsecure/base_url'); 
+ 
+UPDATE core_config_data 
+SET value = 'http://211.241.201.95/ma2.1.1' 
+WHERE path IN ('web/secure/base_url', 'web/unsecure/base_url');    
+
+UPDATE core_config_data 
+SET value = 'http://211.241.201.66/magento2.1.0' 
+WHERE path IN ('web/secure/base_url', 'web/unsecure/base_url');    
+
+
+UPDATE core_config_data
+SET value = REPLACE(value, 'http://192.168.88.202/', 'http://211.241.201.153/')
+WHERE path = 'design/head/includes';
+
+select * from core_config_data where path = 'admin/url/custom';
+
+PATH                         VALUE
+web/unsecure/base_url        http://www.example.com/
+web/unsecure/base_link_url   {{unsecure_base_url}}
+web/unsecure/base_skin_url   {{unsecure_base_url}}skin/
+web/unsecure/base_media_url  {{unsecure_base_url}}media/
+web/unsecure/base_js_url     {{unsecure_base_url}}js/
+web/secure/base_url         https://www.example.com/
+web/secure/base_link_url    {{secure_base_url}}
+web/secure/base_skin_url    {{secure_base_url}}skin/
+web/secure/base_media_url   {{secure_base_url}}media/
+web/secure/base_js_url      {{secure_base_url}}js/
+Clear contents from var/cache, var/session directories after changing base_urls.
+
+/var/cache , /varsession  delete
+
+
+SELECT Host,User,Password FROM mysql.user
+
+grant all privileges on *.* to  root@'%' identified by 'cw8904' with grant option;
+grant all privileges on *.* to  root@'localhost' identified by 'cw8904' with grant option;
+
+flush privileges; 
+
+netstat -ntlp | grep mysqld
+service mysql restart
+netstat -ntlp | grep mysqld
+
+
+select * from core_config_data where config_id = 261
+
+
+sudo ifconfig ens33 192.168.88.202
+sudo route add default gw 192.168.88.2
+
+ 
+
+cat /etc/resolvconf/resolv.conf.d/base
+sudo vi /etc/resolvconf/resolv.conf.d/base
+nameserver 192.168.88.2
+
+sudo resolvconf -u
+
+systemctl restart networking.service
+sudo /etc/init.d/networking restart
+
+
+
+nameserver  168.126.63.1
+nameserver  211.241.201.135 
+
+
+
+# interfaces(5) file used by ifup(8) and ifdown(8)
+auto lo
+iface lo inet loopback
+
+auto ens33
+iface ens33 inet static
+       address 211.241.201.153
+       netmask 255.255.255.0
+       gateway 211.241.201.126
+       dns-nameservers 168.126.63.1
+
+
+sudo add-apt-repository ppa:notepadqq-team/notepadqq
+sudo apt-get update
+sudo apt-get install notepadqq
+
+=======================
+UIComponent
+Magento\Framework\Data\Collection\
+public function load($printQuery = false, $logQuery = false)
+getData()
+Magento\Framework\DB\Select
+fetchAll
+
+Zendframework1\library\Zend\Db\Adapter\Abstract.php 에서 Mysql로 변경됨
+abstract class Zend_Db_Adapter_Abstract
+public function fetchAll($sql, $bind = array(), $fetchMode = null)
+Magento\Framework\DB\Select\SelectRenderer
+ public function render(Select $select, $sql = '')
+Magento\Framework\DB\Select\Select\__toString()
+  namespace Magento\Framework\DB\Adapter\Pdo
+  class Mysql extends \Zend_Db_Adapter_Pdo_Mysql implements AdapterInterface
+ protected function _query($sql, $bind = [])
+namespace Magento\Framework\DB\Adapter\Abstract
+ public function fetchOne($sql, $bind = array())
+=======================================================
+
+php bin/magento cache:disable db_ddl full_page config
+
+php bin/magento cache:enable db_ddl full_page config
+
+sudo crontab -u bimohani -e
+
+*/1 * * * * /usr/bin/php -c /etc/php/7.0/apache2/php.ini /var/www/public/ma2.1.1/bin/magento cron:run >> /var/www/public/ma2.1.1/var/log/magento.cron.log&
+*/1 * * * * /usr/bin/php -c /etc/php/7.0/apache2/php.ini /var/www/public/ma2.1.1/update/cron.php >> /var/www/public/ma2.1.1/var/log/update.cron.log&
+*/1 * * * * /usr/bin/php -c /etc/php/7.0/apache2/php.ini /var/www/public/ma2.1.1/bin/magento setup:cron:run >> /var/www/public/ma2.1.1/var/log/setup.cron.log&
+
+
+php bin/magento  cron:run --group="digital_jobs"
+php bin/magento  cron:run --group="default"
+=========================================================
+로그인후에 아래 URL 호출하면 개인 개정 정보 나온다.
+http://211.241.201.95/ma2.1.1/rest/V1/customers/me
+========================================================
+-- mysql table 정보
+SELECT *
+FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA ='ma211' order by table_rows desc;
+===================================================================
+php ./pestle.phar generate_module Pulsestorm HelloPestle 0.0.1
+php ./pestle.phar generate_route Pulsestorm_HelloPestle frontend hello_pestle
+php ./pestle.phar generate_view Pulsestorm_HelloPestle frontend hello_pestle_index_index Main content.phtml
+============================================================
+webapi 
+REST: vendor/magento/module-webapi/Controller/Rest.php
+SOAP: vendor/magento/module-webapi/Controller/Soap.php
+#File: vendor/magento/module-webapi/Model/Soap/Server.php
+#File: vendor/magento/module-webapi/Model/Soap/ServerFactory.php 
+vendor/magento/module-webapi/Controller/Soap/Request/Handler.php
+vendor/magento/module-webapi/Model/ServiceMetadata.php
+find . -name di.xml | xargs grep TaxRateRepositoryInterface
+
+http://inchoo.net/magento/api-magento/magento-2-custom-api/
+https://alankent.me/2015/07/24/creating-a-new-rest-web-service-in-magento-2/
+https://github.com/magento-hackathon/M2ReviewsAPI
+
+curl http://211.241.201.95/ma2.1.1/rest/V1/helloapi/name/Jangwoong
+curl -v -H http://211.241.201.95/ma2.1.1/rest/V1/helloapi/add/1/2
+--POST
+curl -d '{"nums":[1.1,2.2,3,3]}' -H 'Content-Type:application/json' http://211.241.201.95/ma2.1.1/rest/V1/helloapi/sum
+curl -d '{"nums":[1.1,2.2,3.3]}' -H 'Content-Type:application/json' http://211.241.201.95/ma2.1.1/rest/V1/helloapi/sum
+curl -d '{"nums":[1.1,2.2,3.3]}' -H 'Content-Type:application/x-www-form-urlencoded' http://211.241.201.95/ma2.1.1/rest/V1/helloapi/sum
+curl -v -H "Content-Type: application/json" -d '{"nums":[1.1,2.2,3.3]}' http://211.241.201.95/ma2.1.1/rest/V1/helloapi/sum
+ 
+
+{"message":"\uc11c\ubc84\ub294 Content-Type HTTP \ud5e4\ub354 \ubbf8\ub514\uc5b4\uc720\ud615 application\/x-www-form-urlencoded \uc9c0\uc815\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.","trace":null}
+https://atlas.hashicorp.com/session
+http://www.joinc.co.kr/w/Site/cloud/automation/ChefDeventWithVB
+https://kyungw00k.github.io/2015/09/09/windows-10-vagrant-box-%EB%A7%8C%EB%93%A4%EA%B8%B0/
+vagrant init kyungw00k/windows-10-pro-kn-x64
+vagrant up --provider virtualbox
+vagrant rdp
+https://atlas.hashicorp.com/kyungw00k/boxes/windows-10-pro-kn-x64/
+
+$ vagrant box add /path/to/output/windows.box --name windows-10-pro-kn-korean-x64
+$ vagrant init windows-10-pro-kn-korean-x64
+$ vagrant up
+vagrant rdp
+vagrant/vagrant
+
+http://tecadmin.net/install-oracle-virtualbox-on-ubuntu/#
+
+lsb_release -c
+Codename:	xenial
+ /etc/apt/sources.list
+deb http://download.virtualbox.org/virtualbox/debian xenial contrib
+
+$ wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+$ wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+
+wget https://download-cf.jetbrains.com/webide/PhpStorm-2016.1.2.tar.gz
+tar xvf PhpStorm-2016.1.2.tar.gz
+sudo mv PhpStorm-145.1616.3/ /opt/phpstorm/
+sudo ln -s /opt/phpstorm/bin/phpstorm.sh /usr/local/bin/phpstorm
+
+
+wget -O phpstorm.tar.gz "https://download-cf.jetbrains.com/webide/PhpStorm-2016.2.2.tar.gz"
+tar xvf phpstorm.tar.gz
+ sudo mv PhpStorm-145.1616.3/ /opt/phpstorm/
+ sudo ln -s /opt/phpstorm/bin/phpstorm.sh /usr/local/bin/phpstorm
+ 
+    
+
+http://idea.lanyus.com/
+http://jetbrains.tencent.click
+
+
+sudo ln -s /vagrant/ma2 /var/www/html/ma2
+
+
+magento setup:perf:generate-fixtures /var/www/html/magento2/setup/performance-toolkit/profiles/ce/small.xml
+php bin/magento setup:perf:generate-fixtures /var/www/public/ma2.1.1/setup/performance-toolkit/profiles/ce/large.xml
+php bin/magento setup:perf:generate-fixtures /var/www/public/ma2.1.1/setup/performance-toolkit/profiles/ce/small.xml
+
+
+
+http://devdocs.magento.com/guides/v2.0/rest/rest_endpoints.html
+
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
+sudo apt-get install libxss1 libgconf2-4 libappindicator1 libindicator7  
+sudo apt UPDATE
+sudo apt-get install -f
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+https://www.jetbrains.com/phpstorm/marklets/
+
+
+vi .profile
+TZ='Asia/Seoul'; export TZ
+
+
+http://mag2.dadev8.com/ma2.1.1/jobs/job/testlog
+http://mag2.dadev8.com/ma2.1.1/jobs/cookie/testaddcookie
+http://mag2.dadev8.com/ma2.1.1/jobs/cookie/testgetcookie
+http://mag2.dadev8.com/ma2.1.1/jobs/cookie/testdeletecookie
+
+
+
+http://yyman.tistory.com/entry/Ubuntu-1410-XRDP-%EC%9A%B0%EB%B6%84%ED%88%AC-1410-%EC%84%9C%EB%B2%84Gnome-Classic-1
+
+
+
+sudo add-apt-repository ppa:hodong/nimf
+sudo apt update && sudo apt install nimf
+
+
+composer create-project magento-hackathon/magento2-standard destination
+composer create-project --ignore-platform-reqs magento-hackathon/magento2-standard destination
+
+composer config -g repositories.magento2-standard vcs https://github.com/magento-hackathon/magento2-standard
+
+composer create-project -s dev magento-hackathon/magento2-standard destination
+
+
+https://github.com/netz98/n98-magerun2
+curl -O https://files.magerun.net/n98-magerun2.phar
+n98-magerun2.phar install
+$ n98-magerun2.phar install --dbHost="localhost" --dbUser="mydbuser" --dbPass="mysecret" --dbName="magentodb" --installSampleData=yes --useDefaultConfigParams=yes --magentoVersionByName="magento-ce-2.0.0.0-dev-beta1" --installationFolder="magento2" --baseUrl="http://magento2.localdomain/"
+n98-magerun2.phar sys:info
+n98-magerun2.phar sys:store:list [--format[="..."]]
+
+
+----일본어 사이트
+https://magento.flatz.jp/
+https://magento.flatz.jp/magento2-extensions-xtento
+https://www.orocrm.com/download
+https://github.com/orocrm
+http://techwatch.keeward.com/geeks-and-nerds/installing-orocrm-on-ubuntu-using-composer/
+
+curl -s https://getcomposer.org/installer | php
+
+https://github.com/orocrm/crm-application/blob/1.10.8/composer.json
+https://www.orocrm.com/documentation/index/current/book/installation#book-installation-command
+git clone http://github.com/orocrm/crm-application.git
+php composer.phar install
+php composer.phar --prefer-dist install
+
+wget -c https://www.orocrm.com/downloads/crm-application.tar.gz
+tar -xzvf crm-application.tar.gz
+composer install --prefer-dist --no-dev
+
+ composer require oro/crm
+$ mysql -u root -p
+> CREATE DATABASE oro_crm;
+> CREATE USER 'oro_crm'@'localhost' IDENTIFIED BY 'somepassword';
+> GRANT ALL PRIVILEGES ON oro_crm.* TO 'oro_crm'@'localhost' WITH GRANT OPTION;
+> quit
+
+vim /etc/apache2/sites-available/orocrm
+<VirtualHost *:80>
+    ServerName orocrm.keeward.local
+    ServerAdmin orocrm@keeward.local
+    # Change /var/crm-application/web to /var/www/web in the two
+    # following lines in case you installed the CRM in /var/www
+    DocumentRoot /var/crm-application/web/
+    <Directory /var/crm-application/web>
+        AllowOverride All
+        Order allow,deny
+        allow from all
+    </Directory>
+    # The following vaue should be 512MB during installation,
+    # put it back to 256MB after the installation is finished.
+    php_value memory_limit 256M
+    # This is optional, in order to remove the warning during the
+    # installation check
+    php_value short_open_tag Off
+</VirtualHost>
+http://<your_domain>/installer/flow/oro_installer/check
+Troubleshooting
+If a blank page was shown during the installation wizard, you can check your error logs at
+/var/log/apache2/error.log
+/var/crm-application/app/logs/oro_install.log
+/var/crm-application/app/logs/prod.log
+
+Make sure apache has write access to the following file & folders:
+/var/crm-application/app/config/parameters.yml
+/var/crm-application/app/logs/
+/var/crm-application/app/cache/
+/var/crm-application/web/uploads/
+
+After the installation is complete, you should revoke the write access from
+/var/crm-application/app/config/parameters.yml
+
+
+[Mon Oct 31 14:22:39.104979 2016] [core:alert] [pid 10624] [client 192.168.88.1:54941] /var/www/public/orocrm/web/.htaccess: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration, 
+referer: http://192.168.88.202/orocrm/vendor/
+cd /etc/apache2/mods-available
+sudo a2enmod headers
+service apache2 restart
+apt-get -y install php7.0-sqlite3 php7.0-tidy
+apt-get -y install php7.0-mysql php7.0-curl php7.0-gd php7.0-intl php-pear php-imagick php7.0-imap php7.0-mcrypt php-memcache  php7.0-pspell php7.0-recode php7.0-sqlite3 php7.0-tidy php7.0-xmlrpc php7.0-xsl php7.0-mbstring php-gettext
+composer require symfony/symfony:2.7.* ?prefer-dist ?update-no-dev
+
+http://localhost/php-recipe/10/03/eval_injection.php?code=phpinfo();
+
+
+--- cart add url 분석
+/checkout/cart/add/uenc
+http://211.241.201.95/ma2.1.1/checkout/cart/add/uenc/aHR0cDovLzIxMS4yNDEuMjAxLjk1L21hMi4xLjEvZXJpa2EtcnVubmluZy1zaG9ydC5odG1s/product/2045/
+
+POST http://211.241.201.95/ma2.1.1/checkout/cart/add/uenc/aHR0cDovLzIxMS4yNDEuMjAxLjk1L21hMi4xLjEvZXJpa2EtcnVubmluZy1zaG9ydC5odG1s/product/2045/ HTTP/1.1
+Host: 211.241.201.95
+Connection: keep-alive
+Content-Length: 147
+Cache-Control: max-age=0
+Origin: http://211.241.201.95
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://211.241.201.95/ma2.1.1/erika-running-short.html
+Accept-Encoding: gzip, deflate
+Accept-Language: ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4
+Cookie: store=default_ko_kr_0; mage-translation-storage=%7B%7D; mage-translation-file-version=%7B%7D; PHPSESSID=g518uecb0c5cfu60qtqutj02o6; form_key=k7PceGsyqHkpv1AV; mage-cache-storage=%7B%7D; mage-cache-storage-section-invalidation=%7B%7D; mage-cache-sessid=true; private_content_version=6837aac163a5238871ad385228318683; X-Magento-Vary=5204111880b1f2e19e120ebae578ed5c302e6f2a
+
+product=2045&selected_configurable_option=&related_product=&form_key=k7PceGsyqHkpv1AV&qty=1&super_attribute%5B93%5D=57&super_attribute%5B141%5D=175
+
+
+http://211.241.201.95/ma2.1.1/sampleinterception
+
+
+select *  from eav_attribute WHERE eav_attribute.attribute_code = "my_attribute";
+
+http://magento.stackexchange.com/questions/76925/how-to-create-and-add-buy-now-button-along-with-add-to-cart-button-on-each-pro?rq=1
+http://chandreshrana.blogspot.sg/2016/01/how-to-add-buynow-button-on-product.html
+http://magento.stackexchange.com/questions/76925/how-to-create-and-add-buy-now-button-along-with-add-to-cart-button-on-each-pro?rq=1
+====================== magento ORDER Step
+http://inchoo.net/magento/magentos-onepage-checkout-in-a-nutshell/
+$checkout = Mage::getSingleton('checkout/type_onepage');
+/**
+ * One page checkout consists of following steps
+ * (1) Customer login method aka Checkout method
+ * (2) Billing information (address)
+ * (3) Shipping information (address)
+ * (4) Shipping method
+ * (5) Payment information
+ * (6) Order review, in short: DO THE ORDER
+ */
+ 
+// STEP(1)
+$checkout->saveCheckoutMethod('guest');
+ 
+// STEP(2)
+$checkout->saveBilling($billingAddress, false);
+ 
+// STEP(3)
+$checkout->saveShipping($shippingAddress, false);
+ 
+// STEP(4)
+$checkout->saveShippingMethod('flatrate_flatrate');
+ 
+// STEP(5)
+$checkout->savePayment(array('method'=>'checkmo'));
+ 
+// STEP(6)
+/**
+ * $checkout->saveOrder() returns array holding empty object
+ * of type Mage_Checkout_Model_Type_Onepage
+ */
+$checkout->saveOrder();
+
+
+
+
+find 폴더 -type f -mtime -일수 -print
+find 폴더 -type f -mtime -일수 -ls
+
+find ./ -type f -mtime -5 -ls
+
+find ./ -type f -mtime -3 -ls
+
+
+https://blog.amasty.com/creating-magento-2-orders-programmatically/
+=============================== 마젠토 설치 진행 ====================================
+--최신 버전 설치하는 방법
+composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition ma212
+echo '000' >> magento_umask
+echo "We're about to ask for your MySQL password so we can create the database"
+echo 'CREATE DATABASE ma212' | mysql -uroot -pcw8904
+php bin/magento setup:install --admin-email changwng@gmail.com --admin-firstname admin --admin-lastname Storm --admin-password dkagh1234.. --admin-user admin --backend-frontname admin --base-url http://211.241.201.95/ma212 --db-host 127.0.0.1 --db-name ma212 --db-password cw8904 --db-user root --session-save files --use-rewrites 1 --use-secure 0 -vvv
+php bin/magento sampledata:deploy
+php bin/magento cache:ENABLE
+user: 9501759956d8f9e3b362543da9a79ca9
+pass: a3f4e3bbb597e6de0f90ec3f4bef6949
+-- 140 localhost
+echo 'CREATE DATABASE ma212cw' | mysql -uroot -pcw8904
+php bin/magento setup:install --admin-email changwng@gmail.com --admin-firstname admin --admin-lastname Storm --admin-password dkagh1234.. --admin-user admin --backend-frontname admin --base-url http://localhost.cw/ma212 --db-host 211.241.201.95 --db-name ma212cw --db-password cw8904 --db-user root --session-save files --use-rewrites 1 --use-secure 0 -vvv
+php bin/magento sampledata:deploy
+php bin/magento cache:ENABLE
+============================================================================================
+--최신 버전 설치하는 방법
+composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition ma213
+echo '000' >> magento_umask
+echo "We're about to ask for your MySQL password so we can create the database"
+echo 'CREATE DATABASE ma213' | mysql -uroot -pcw8904
+php bin/magento setup:install --admin-email changwng@gmail.com --admin-firstname admin --admin-lastname Storm --admin-password dkagh1234.. --admin-user admin --backend-frontname admin --base-url http://211.241.201.95/ma213 --db-host 127.0.0.1 --db-name ma213 --db-password cw8904 --db-user root --session-save files --use-rewrites 1 --use-secure 0 -vvv
+php bin/magento sampledata:deploy
+php bin/magento cache:ENABLE
+user: 9501759956d8f9e3b362543da9a79ca9
+pass: a3f4e3bbb597e6de0f90ec3f4bef6949
+-- 140 localhost
+echo 'CREATE DATABASE ma213cw' | mysql -uroot -pcw8904
+php bin/magento setup:install --admin-email changwng@gmail.com --admin-firstname admin --admin-lastname Storm --admin-password dkagh1234.. --admin-user admin --backend-frontname admin --base-url http://localhost.cw/ma213 --db-host 211.241.201.95 --db-name ma213cw --db-password cw8904 --db-user root --session-save files --use-rewrites 1 --use-secure 0 -vvv
+php bin/magento sampledata:deploy
+php bin/magento cache:ENABLE
+
+
+===============================================================================
+php pestle.phar generate_module Pulsestorm KnockoutTutorial 0.0.1
+php pestle.phar generate_route Pulsestorm_KnockoutTutorial frontend pulsestorm_knockouttutorial
+php pestle.phar generate_view Pulsestorm_KnockoutTutorial frontend pulsestorm_knockouttutorial_index_index Main content.phtml 1column
+php bin/magento module:enable Pulsestorm_KnockoutTutorial
+php bin/magento setup:upgrade
+=======================================
+http://211.241.201.95/ma212/
+admin/dkagh1234..
+
+How is a new address form popup implemented on the frontend checkout screen in the shipping section?
+add-new-addressaddresscheckoutshipping-addressfrontend
+https://mage2.pro/t/topic/1049
+http://magento.stackexchange.com/questions/131394/magento-2-new-checkout-step-shipping-method-prices-not-showing
+https://ranasohel.me/2015/11/28/how-to-add-custom-field-to-shipping-address-form-in-magento-2-onepage-checkout/
+"D:\xampp\htdocs\magento2\magento2-develop\app\code\Magento\Checkout\view\frontend\web\js\view\shipping.js"(69,13):            isNewAddressAdded: ko.observable(false),
+"D:\xampp\htdocs\magento2\magento2-develop\app\code\Magento\Checkout\view\frontend\web\js\view\shipping.js"(99,22):                this.isNewAddressAdded(hasNewAddress);
+"D:\xampp\htdocs\magento2\magento2-develop\app\code\Magento\Checkout\view\frontend\web\js\view\shipping.js"(195,26):                    this.isNewAddressAdded(true);
+"D:\xampp\htdocs\magento2\magento2-develop\app\code\Magento\Checkout\view\frontend\web\template\shipping.html"(30,60):                data-bind="click: showFormPopUp, visible: !isNewAddressAdded()"
+
+
+
+wget https://files.magerun.net/n98-magerun2.phar
+curl -O https://files.magerun.net/n98-magerun2.phar
+chmod +x ./n98-magerun2.phar
+sudo cp ./n98-magerun2.phar /usr/local/bin/
+
+================================ knock out Test url ======
+definition.xml
+http://alanstorm.com/magento-2-ui-component-data-sources/
+http://alanstorm.com/category/magento-2/#magento_2_ui
+http://alanstorm.com/magento_2_simplest_ui_knockout_component/
+
+=================== blog soulution ===================
+https://mirasvit.com/blog/building-tabbed-interface-with-magento-2-javascript-ui.html
+composer require mirasvit/module-blog
+
+php -f bin/magento module:enable Mirasvit_Blog
+php -f bin/magento setup:upgrade
+
+rm -rf pub/static/*; rm -rf var/view_preprocessed/*;
+php -f bin/magento setup:static-content:deploy
+
+
+composer config repositories.mirasvit-example vcs git@bitbucket.org:mirasvit/module-example.git
+composer require mirasvit/module-example:dev-master
+
+enable module in app/etc/config.php
+
+bin/magento setup:upgrade
+
+rm -rf pub/static/*; rm -rf var/view_preprocessed/*;
+
+===================================================
+https://github.com/mcspronko
+
+
+<li class="greet welcome" data-bind="scope: 'customer'">
+    <pre data-bind="text: ko.toJSON($data, null, 2)"></pre>            
+    <!-- ... -->
+</li>
+
+=====================================================
+UIComponent
+Magento\Ui\TemplateEngine\Xhtml\Result.php
+Magento\Ui\Component\AbstractComponent.php
+\Magento\Ui\DataProvider\AbstractDataProvider.php
+Magento\Framework\View\Element\UiComponent\Context.php  public function getDataSourceData(UiComponentInterface $component)
+Magento\Framework\View\Element\UiComponent\Config\Provider\Templates.php
+Magento\Framework\View\Element\UiComponent\Context.php    public function getDataSourceData(UiComponentInterface $component)
+
+
+chrome debugger 
+Admin\Product\Catalog
+ File: vendor/magento/module-ui/view/base/requirejs-config.js
+ 
+ // Console Input
+reg = requirejs('uiRegistry');
+reg.get('product_listing.product_listing');
+
+reg.get(function(item){
+    console.log(item.name);
+    console.log(item);
+});
+
+> reg = requirejs('uiRegistry');
+> reg.get('pulsestorm_simple.pulsestorm_simple').message("Change Me");
+
+===========================================================================
+Magento\Checkout\Model
+class DefaultConfigProvider implements ConfigProviderInterface
+
+================================================================================
+event
+customer_login
+customer_logout
+==============================
+mysql db logging
+<!--preference for="Magento\Framework\DB\LoggerInterface" type="Magento\Framework\DB\Logger\Quiet"/-->
+	<preference for="Magento\Framework\DB\LoggerInterface" type="Magento\Framework\DB\Logger\File"/>
+	<type name="Magento\Framework\DB\Logger\File">
+		<arguments>
+			<argument name="logAllQueries" xsi:type="boolean">true</argument>
+			<argument name="debugFile" xsi:type="string">log/my212db.log</argument>
+		</arguments>
+	</type>
+	
+==============================
+http://admin.iamport.kr/settings
+가맹점 식별코드 : imp79251660
+REST API 키 : 3195969710246736
+REST API secret : PieYfxKBDFayl8hwcwVQihs4dHBpogpezEdObYqPDAnYIFvVcqMuHezUWbklrKA0oNPzLfpoPMnyrStE
+
+https://translate.google.com/translate_a/single?client=t&sl=en&tl=ko&hl=ko&dt=bd&dt=t&dt=ld&dt=rm&ie=UTF-8&oe=UTF-8&tk=740780.855361&q=Read%20Details
+
+http://stackoverflow.com/questions/32053442/google-translate-tts-api-blocked
+https://github.com/guyrotem/google-translate-server
+https://translate.google.com/translate_a/single?client=t&sl=en&tl=ko&hl=ko&dt=bd&dt=t&dt=ld&dt=rm&ie=UTF-8&oe=UTF-8&tk=926620.551509&q=Read%20Details
+https://translate.google.co.kr/translate_a/single?client=t&sl=en&tl=ko&hl=ko&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&source=btn&ssel=0&tsel=0&kc=0&tk=326720.177544&q=Read Details
+
+QTranslate 버전:  6.1.0
+
+▩ 시스템 전역 단축키 (기본값) :
+ Double Ctrl ⇒ 메인 창 표시 (텍스트가 번역되어 있는 경우) 
+ Ctrl+Q ⇒ 선택한 텍스트를 번역하고 팝업창에 표시
+ Ctrl+Shift+Q ⇒ 사전 창 표시
+ Ctrl+E ⇒ 선택한 텍스트 음성으로 듣기
+
+▩ 메인 창 단축키 :
+ Ctrl+Enter ⇒ 텍스트 번역하기
+ Ctrl+N ⇒ 현재 번역 지우기
+ Ctrl+D ⇒ 사전 보기
+ Ctrl+Alt+1..9 ⇒ 선택한 1..9번째 번역 서비스와 사전 보기
+ Ctrl+H ⇒ 번역 히스토리 대화상자 열기
+ Ctrl+K ⇒ 가상 키보드를 표시
+ Ctrl+Tab ⇒ 다음 단계
+ Ctrl+Shift+Tab ⇒ 이전 단계
+ Ctrl+1~9 ⇒ 1..9 번역 서비스 선택
+ Shift+Esc ⇒ 자동 검색용 언어세트 다시 설정
+ Ctrl+Shift+1..9 ⇒ 언어세트 선택
+ Ctrl+I ⇒ 번역 방향을 반대로 바꾸기
+ Ctrl+Space ⇒ 제안 및 자동 완성 드롭다운 메뉴 보기
+ F1 ⇒ 도움말 보기
+ Alt+왼쪽 화살표 ⇒ 이전 번역으로 이동
+ Alt+오른쪽 화살표 ⇒ 다음 번역으로 이동
+ Ctrl+Up ⇒ 번역을 텍스트 입력 상자에 복사
+
+▩ 텍스트를 선택해서 번역하는 두가지 방법 (아래 참조):
+ ① 아이콘 표시 (마우스로 텍스트를 선택하면 커서 근처에 프로그램 아이콘이 나타나게 됩니다. 그 아이콘을 클릭하면 선택한 텍스트가 번역돼서 팝업 창으로 나타나게 됩니다.)
+ ② 번역 표시 (마우스로 텍스트를 선택하면 선택한 텍스트의 번역 팝업 창이 바로 나타납니다.)
+
+▩ 마우스 모드에서 작업하기:
+ ① 마우스 모드의 활성 및 비활성 여부는 시스템 트레이에 있는 QTranslate-아이콘을 마우스 왼쪽 버튼으로 클릭해서 변경할 수 있습니다.
+ ② 메인 창을 표시하려면 시스템 트레이에 있는 QTranslate-아이콘을 마우스로 더블 클릭합니다.
+ ③ 현재 팝업 창으로 번역된 텍스트를 메인창으로 보려면 팝업 창 헤더를 마우스로 더블 클릭합니다.
+ ④ 현재 서비스를 변경하고 텍스트를 다시 번역하려면 팝업 창에 있는 서비스 이름을 마우스 왼쪽 버튼으로 클릭합니다.
+
+ 
+
+ 
+
+ 
+
+ ma212 에서 ma213변경 사항
+
+ 
+
+ 
+
+ var require = {
+        "baseUrl": "http://211.241.201.95/ma212/pub/static/frontend/Magento/luma/en_US"
+    };
+
+	ma213 버전 사용
+	 var require = {
+        "baseUrl": "http://211.241.201.95/ma213/pub/static/version1485920708/frontend/Magento/luma/en_US"
+    };
+
+    
+
+    pub/static 폴더 아래 deployed_version.txt    
+
+    1485921324
